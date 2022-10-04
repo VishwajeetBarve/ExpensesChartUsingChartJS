@@ -1,0 +1,104 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'DM Sans', sans-serif;   
+    background-color: hsl(27, 66%, 92%);
+}
+main{
+    margin: 20px;
+}
+
+.container{
+    margin: 20px 5px;
+    
+}
+
+.todaybalance{
+    background-color: hsl(10, 79%, 65%);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.mybalance{
+    display: flex;
+    flex-direction: column;
+}
+.mybalance>h1{
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    margin: 0 0 5px;
+}
+.mybalance>span{
+  color: white;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+}
+
+.spending{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0 0;
+    
+}
+.chartheading{
+    font-size: 22px;
+}
+
+.divider{
+    width: 100%;
+    opacity: 0.3;
+    
+}
+.monthspend{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+
+}
+.lastmonths{
+    text-align: right;
+    align-self: flex-end;
+}
+
+
+.thismonths > span, .lastmonths > span{
+    color: lightslategrey;
+    font-weight: 400;
+}
+
+.thismonths>h1{
+    margin-top: 10px;
+
+}
+
+ .lastmonths > h2{
+    font-size: 18px;
+ }
+
+ @media only screen and (min-width: 1000px) {
+    body {
+     display: flex;
+     justify-content: center;
+     
+    }
+    
+    main{
+        width: 400px;
+        align-self: center;
+        margin: 70px;
+
+    }
+  }
